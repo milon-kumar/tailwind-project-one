@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Footer Links */}
-                    <div className="md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-8 items-start">
+                    <div className="md:w-1/2 flex flex-col md:flex-row justify-between gap-8 items-start">
                         <div className="space-y-4 mt-5">
                             <h4 className="text-xl">Ppatforms</h4>
                             <ul className="space-y-3">
@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
                 <hr />
                 <div className="flex flex-col sm:flex-row gap-8 sm:items-center justify-between my-8">
-                    <p className="">@ XYZ 2017 --- { new Date().getFullYear() }. All rights reserved.</p>
+                    <p className="">@ XYZ 2017 -- { new Date().getFullYear() }. All rights reserved.</p>
                     <div className="">
                         <div className="flex items-center space-x-5">
                             <img src={Facebook} className="w-8 cursor-pointer hover:-translate-y-4 transition-all delay-300" alt="" />
